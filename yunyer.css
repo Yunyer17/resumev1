@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #0a62c0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 39px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url(https://source.unsplash.com/1600x900/?technology,web) no-repeat center center/cover;
+    color: #000000fd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/357/015/non_2x/frame-of-different-stationery-on-blue-background-photo.jpg);
+    background-position: center;
+}
+
+.now {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #218ec0;
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(94, 90, 90);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    background: #fffdfd;
+}
+
+.service {
+    background: rgb(242, 162, 162);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: rgb(232, 225, 225);
+}
